@@ -159,6 +159,28 @@ hr{
     border-bottom: transparent;
     border-top: 3px dashed red;
 }
+.skill-row{
+    height:400px;
+    width:400px;
+}
+#skills1{
+    height: 85px;
+    width: 105px;
+    position: relative;
+    top:-101px;
+    left: 330px;
+}
+#html5{
+    height: 100px;
+    width:100px;
+    position: relative;
+    left:-500px;
+}
+#cpp{
+    position: relative;
+ height:100px;
+ width:100px;   
+}
 
 
 
