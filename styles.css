@@ -5,7 +5,7 @@ body{
     font-family: 'Silkscreen', cursive;
 }
 h1{
-margin: 60px 0 15px 28px;
+margin: -60px 0 15px 28px;
 left:200px;
 font-size: 400%;
 }
@@ -16,8 +16,8 @@ font-size: 400%;
 }
 #cloud1{
     position: relative;
-    top: 50px;
-    left: 190px;
+    top: -40px;
+    left: 140px;
 }
 #cloud2{
     position:relative;
@@ -26,9 +26,38 @@ font-size: 400%;
 }
 #moun{
     position:relative;
-    top: 95px;
-    right:300px;
+    top: -100px;
+    right:10px;
     font-weight: bold;
+}
+#moun1{
+    position:relative;
+    top: -316px;
+    right:-890px;
+    font-weight: bold;
+    z-index: 1;
+}
+#moun2{
+    position:relative;
+    top: -465px;
+    right:-401px;
+    font-weight: bold;
+    z-index: 0;
+}
+#moun3{
+    position:relative;
+    top: -677px;
+    right:-300px;
+    font-weight: bold;
+    z-index: 3;
+}
+#moun4{
+    position:relative;
+    top: -680px;
+    right:0px;
+    font-weight: bold;
+    z-index: 2;
+
 }
 #wo{
     text-align: center;
@@ -36,4 +65,45 @@ font-size: 400%;
     left: 400px;
     top:-320px;
     font-size: 200%;
+    z-index: 1;
+}
+#sun{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    right: -655px;
+}
+#dino{
+    position:relative;
+    left:-400px;
+    top:-1017px;
+    height:50%;
+}
+#pfp{
+    position:relative;
+    height: 350px;
+    width: 350px;
+    left:-450px;
+    top:62px;
+    border: 5px solid black;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+#pfp:hover{
+    box-shadow: 0 0 0 5px rgb(163, 104, 202);
+}
+.info{
+    top: -400px;
+    position: relative;
+    font-size: 300%;
+    margin: 0;
+}
+#about{
+    font-size: 300%;
+}
+.profile{
+    position: relative;
+    height: 700px;
 }
