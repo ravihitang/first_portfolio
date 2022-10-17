@@ -192,25 +192,29 @@ hr{
 .skill-box{
     height:300px;
     width:300px;
-    background-color: red;
+    background-color: rgb(152, 80, 219);
+    border-radius: 10px 10px 10px 10px;
     top:-90px;
     margin: 0;
+    left:5px;
     position: relative;
 }
 .skill-box1{
     height:300px;
     width:300px;
-    background-color: rgb(24, 240, 211);
     position: relative;
+    background-color: rgb(152, 80, 219);
     top:-390px;
+    border-radius: 10px 10px 10px 10px;
     left:320px;
 }
 .skill-box2{
     height:300px;
     width:300px;
-    background-color: rgb(24, 240, 211);
     position: relative;
+    background-color: rgb(152, 80, 219);
     top:-690px;
+    border-radius: 10px 10px 10px 10px;
     left:635px;
 }
 
