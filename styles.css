@@ -118,7 +118,7 @@ font-size: 400%;
     position: relative;
     top:-450px;
     left:540px;
-    width: 770px;
+    width: 750px;
     font-size: 32px;
     text-align: left;
     font-family:Arial;
@@ -142,7 +142,7 @@ font-size: 400%;
 .skills{
     position: relative;
     top:-400px;
-    display: inline-block;
+    width: 600px;
 }
 #hr{
     position:relative ;
@@ -153,33 +153,65 @@ font-size: 400%;
     text-align: center;
     margin: 0;
     position: relative;
+    left: 370px;
 } 
 hr{
     height: 3px;
     border-bottom: transparent;
     border-top: 3px dashed red;
 }
-.skill-row{
-    height:400px;
-    width:400px;
-}
 #skills1{
     height: 85px;
     width: 105px;
     position: relative;
-    top:-101px;
-    left: 330px;
+    top:-160px;
+    left: 650px;
 }
 #html5{
     height: 100px;
     width:100px;
     position: relative;
-    left:-500px;
 }
 #cpp{
     position: relative;
  height:100px;
  width:100px;   
+}
+#css{
+    height:100px;
+    width:100px;
+}
+#par{
+    position:relative;
+    font-size: 20px;
+    font-weight: bold;
+    left: 310px;
+    width: 800px;
+    height: 40px;
+}
+.skill-box{
+    height:300px;
+    width:300px;
+    background-color: red;
+    top:-90px;
+    margin: 0;
+    position: relative;
+}
+.skill-box1{
+    height:300px;
+    width:300px;
+    background-color: rgb(24, 240, 211);
+    position: relative;
+    top:-390px;
+    left:320px;
+}
+.skill-box2{
+    height:300px;
+    width:300px;
+    background-color: rgb(24, 240, 211);
+    position: relative;
+    top:-690px;
+    left:635px;
 }
 
 
