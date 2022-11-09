@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(203, 240, 240);
+    font-family: 'Silkscreen', cursive;
+}
+.container{
+    display:flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    background-color: red;
+    height:100%;
+}
+.pic{
+    background-color: yellow;
+}
+.content{
+    background-color: green;
+}
+.skills{
+    background-color: aqua;
+}
+.hobbies{
+    background-color: blueviolet;
+}
+footer{
+    background-color: rgb(4, 0, 255);
+}
